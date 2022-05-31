@@ -1,0 +1,43 @@
+
+img{
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+}
+body{
+    background-color: aqua;
+}
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+#menu div{
+    border: 1px solid ;
+    border-radius: 8px;
+    /* margin: auto; */
+margin: 5px 3px 2px 2px;
+background-color: aliceblue;
+}
+p,h1,h2,h3,a{
+    margin: 3px 3px 3px 3px;
+}
+button{
+    border-radius: 8px;
+    border: none;
+    margin: 0 0 5px 5px;
+}
+#coffee_count{
+    color: black;
+
+    /* background-color: blue; */
+    border-radius: 50%;
+    display: inline-block;
+}
+#navbar{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
